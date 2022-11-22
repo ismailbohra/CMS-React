@@ -9,11 +9,11 @@ const Hello=()=>{
 }
 
 //without jsx component 
-const helloJSX=()=>{
+const HelloJSX=()=>{
     React.createElement(
         'div',
         {
-            id:'HeadingElement',
+            id:'HeadingElement', 
             className: 'Title'
         },
         React.createElement(
@@ -26,7 +26,7 @@ const helloJSX=()=>{
 
 export { 
     Hello,
-    helloJSX
+    HelloJSX
 }
 
 /*
