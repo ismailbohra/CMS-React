@@ -11,6 +11,9 @@ const GreetWithName=(data)=>{
 }
 //data is not a keyword we can rename it as per use
 
+/*children is a special prop, automatically passed to every component,
+that can be used to render the content included between the opening and
+closing tags when invoking a component.*/
 
 const ChildrenProps=(data)=>{
     return( 

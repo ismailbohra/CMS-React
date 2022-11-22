@@ -3,6 +3,7 @@ import './App.css';
 // import {Hello, helloJSX } from './component/jsx';
 // import {GreetWithName,ChildrenProps} from './component/props';
 import Title from './component/state';
+import Count from './component/Counter2';
 // import Welcome from './component/welcome';
 
 class App extends Component {
@@ -18,8 +19,9 @@ class App extends Component {
         <ChildrenProps name="xyz" sem="1">
           <button>Action </button>
         </ChildrenProps>
-        <Welcome name="Ismail Bohra"/> */}
-        <Title/>
+        <Welcome name="Ismail Bohra"/>
+        <Title/> */}
+        <Count/>
       </div>
     );
   }
