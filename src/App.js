@@ -1,14 +1,13 @@
 import { Component } from 'react';
 import './App.css';
-import Greet from './component/greeting';
-import Hello from './component/jsx';
-import Welcome from './component/welcome';
+import {Hello, helloJSX } from './component/jsx';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Hello/>
+        <helloJSX/>
       </div>
     );
   }

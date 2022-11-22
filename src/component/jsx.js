@@ -8,4 +8,32 @@ const Hello=()=>{
     )
 }
 
-export default Hello
+//without jsx component 
+const helloJSX=()=>{
+    React.createElement(
+        'div',
+        {
+            id:'HeadingElement',
+            className: 'Title'
+        },
+        React.createElement(
+            'h1',
+            null,
+            'Hello without JSX'
+        )
+    )
+} 
+
+export { 
+    Hello,
+    helloJSX
+}
+
+/*
+jsx differences
+Class  ClassName
+for htmlFor
+
+camelCase naming convention
+
+*/
