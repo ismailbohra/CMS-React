@@ -9,6 +9,7 @@ import EventBind from './component/EventBind';
 // import Message from './component/message';
 // import Welcome from './component/welcome';
 import FunctionClick from './component/FunctionClick';
+import ParentComponent from './component/ParentComponent';
 
 class App extends Component {
   render() {
@@ -29,8 +30,9 @@ class App extends Component {
         <Message/>
         <Welcome name="Ismail Bohra"/>
         <FunctionClick/>
-        <ClassClick/>*/}
-        <EventBind/>
+        <ClassClick/>
+        <EventBind/>*/}
+        <ParentComponent/>
       </div>
     );
   }
