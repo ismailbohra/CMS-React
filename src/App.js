@@ -1,6 +1,7 @@
 import { Children, Component } from 'react';
 import './App.css';
 import ClassClick from './component/ClassClick';
+import EventBind from './component/EventBind';
 // import {Hello, helloJSX } from './component/jsx';
 // import {GreetWithName,ChildrenProps} from './component/props';
 // import Title from './component/state';
@@ -26,9 +27,10 @@ class App extends Component {
         <Title/> 
         <Count/>
         <Message/>
-        <Welcome name="Ismail Bohra"/>*/}
+        <Welcome name="Ismail Bohra"/>
         <FunctionClick/>
-        <ClassClick/>
+        <ClassClick/>*/}
+        <EventBind/>
       </div>
     );
   }
