@@ -4,7 +4,8 @@ import './App.css';
 // import {GreetWithName,ChildrenProps} from './component/props';
 import Title from './component/state';
 import Count from './component/Counter2';
-// import Welcome from './component/welcome';
+import Message from './component/message';
+import Welcome from './component/welcome';
 
 class App extends Component {
   render() {
@@ -20,8 +21,10 @@ class App extends Component {
           <button>Action </button>
         </ChildrenProps>
         <Welcome name="Ismail Bohra"/>
-        <Title/> */}
+        <Title/> 
         <Count/>
+        <Message/>*/}
+        <Welcome name="Ismail Bohra"/>
       </div>
     );
   }
