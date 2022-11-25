@@ -1,11 +1,13 @@
 import { Children, Component } from 'react';
 import './App.css';
+import ClassClick from './component/ClassClick';
 // import {Hello, helloJSX } from './component/jsx';
 // import {GreetWithName,ChildrenProps} from './component/props';
-import Title from './component/state';
-import Count from './component/Counter2';
-import Message from './component/message';
-import Welcome from './component/welcome';
+// import Title from './component/state';
+// import Count from './component/Counter2';
+// import Message from './component/message';
+// import Welcome from './component/welcome';
+import FunctionClick from './component/FunctionClick';
 
 class App extends Component {
   render() {
@@ -23,8 +25,10 @@ class App extends Component {
         <Welcome name="Ismail Bohra"/>
         <Title/> 
         <Count/>
-        <Message/>*/}
-        <Welcome name="Ismail Bohra"/>
+        <Message/>
+        <Welcome name="Ismail Bohra"/>*/}
+        <FunctionClick/>
+        <ClassClick/>
       </div>
     );
   }
