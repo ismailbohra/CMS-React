@@ -1,38 +1,16 @@
-import { Children, Component } from 'react';
+import { Component } from 'react';
 import './App.css';
-import ClassClick from './component/ClassClick';
-import EventBind from './component/EventBind';
-// import {Hello, helloJSX } from './component/jsx';
-// import {GreetWithName,ChildrenProps} from './component/props';
-// import Title from './component/state';
-// import Count from './component/Counter2';
-// import Message from './component/message';
-// import Welcome from './component/welcome';
-import FunctionClick from './component/FunctionClick';
-import ParentComponent from './component/ParentComponent';
+import ConditionalOperator from './component/ConditionalOperator';
+import ElementVariable from './component/ElementVariable';
+import UserGreeting from './component/ifCondition';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <GreetWithName name="ismail bohra" sem="3" />
-        <GreetWithName name="Mohit Gupta" sem="5"/>
-        <GreetWithName name="Shashank Shekhar" sem="3"/>
-        <ChildrenProps name="xyz" sem="1">
-          <p>This is children section</p>
-        </ChildrenProps>
-        <ChildrenProps name="xyz" sem="1">
-          <button>Action </button>
-        </ChildrenProps>
-        <Welcome name="Ismail Bohra"/>
-        <Title/> 
-        <Count/>
-        <Message/>
-        <Welcome name="Ismail Bohra"/>
-        <FunctionClick/>
-        <ClassClick/>
-        <EventBind/>*/}
-        <ParentComponent/>
+        <UserGreeting/>
+        <ElementVariable/>
+        <ConditionalOperator/>
       </div>
     );
   }
