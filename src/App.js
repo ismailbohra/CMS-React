@@ -1,16 +1,14 @@
 import { Component } from 'react';
 import './App.css';
-import ConditionalOperator from './component/ConditionalOperator';
-import ElementVariable from './component/ElementVariable';
-import UserGreeting from './component/ifCondition';
+import List from './component/List';
+import ListOfObjects from './component/ListOfObjects';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserGreeting/>
-        <ElementVariable/>
-        <ConditionalOperator/>
+        <List/>
+        <ListOfObjects/>
       </div>
     );
   }
